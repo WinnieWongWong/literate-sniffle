@@ -31,7 +31,7 @@
 	.contactBG{ height:370pt; width:100%; background-image:url(../resource/index/index6-BG.jpg);}
 	.indexWord2{text-align: center;}
 	#portfolio{  height:900pt;}
-	#services .bolder{height: 440pt;}
+	#services .bolder{height: 440pt;min-width: fit-content;}
 	#inner .wrapper .img-responsive{display: block; max-width: 100%; height: auto;}
 	.titlePic img{ height:80%; width:80%;}
 	#contact p{ font-size:28pt; line-height: 42pt;}

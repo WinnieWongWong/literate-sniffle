@@ -85,7 +85,7 @@ a{}
 #services .Multimedia{ background-color:#FFF; text-align:center; padding:24pt 0;}
 #services p{ font-size:24pt; color:#ff5700;}
 #services .bolder{ margin:0 24pt; border:4pt solid #ff5700;}
-#services ul{ text-align:left; padding: 0 80pt;}
+#services ul{ text-align:left;}
 #services li{ padding:10pt 0; color:#777; font-size:14pt;}
 
 
