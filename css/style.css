@@ -1,7 +1,6 @@
 @charset "UTF-8";
 /* CSS Document */
 body, html{margin: 0;padding: 0;height: 100%;width: 100%;font-family: 'Gotham-Book', sans-serif;color:#FFF;line-height:1;}
-.overflow{overflow:hidden}
 .wrapper{}
 #index{}
 

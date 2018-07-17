@@ -6,7 +6,7 @@
     .indexWord2{}
     .displayNone1600{ display:none;}
 	.indexWord{ margin:0; text-align:center; z-index:10;}
-	.contactWord{}
+	.contactWord{width:100%;text-align:center;}
 	.indexCityContainer{ left:4%;}
 	}
 	
@@ -24,20 +24,21 @@
     #indexCity{ display:none;}
 	.indexWord{ display:none;}
 	.home{display:none;}
-	.about_usRow{ background-image: none; padding: 10vw 5vw 0; text-align:center; width:100%;}
+	.about_usRow{ background-image: none; padding: 10vw 5vw 0; text-align:center; width:100%;height: auto;}
 	#about_us .about_usContent img{ width:40vw;}
 	#services .bolder img{ height: 24vw; width: 30vw; margin-top: 14pt;}
 	.Word img{ height:12vw;}
 	.contactBG{ height:370pt; width:100%; background-image:url(../resource/index/index6-BG.jpg);}
 	.indexWord2{text-align: center;}
-	#portfolio{  height:900pt;}
+	#portfolio{  height:auto;}
 	#services .bolder{height: 440pt;min-width: fit-content;}
 	#inner .wrapper .img-responsive{display: block; max-width: 100%; height: auto;}
 	.titlePic img{ height:80%; width:80%;}
-	#contact p{ font-size:28pt; line-height: 42pt;}
+	#contact p{ font-size:28pt; line-height: 42pt;word-break: break-all;}
 	}
 @media screen and (max-height: 1024px){
 	.indexCity1600{ top:414pt;}
+	.contactWord{width:100%;text-align:center;}
 	}
 	
 @media screen and (max-width: 992px){
@@ -51,7 +52,7 @@
 	#main{height:100%; width:100%; overflow:hidden; background-image:url(../resource/index/indexD.jpg); background-size:cover; background-position:bottom; background-repeat:no-repeat;}
 	#about_us .designing{ display:none;}
 	#about_us .designing925{ display:block;}
-	#services{height: 1120px;}
+	#services{height: auto;}
     }
 	
 @media screen and (max-width: 600px){
